@@ -18,7 +18,7 @@ sudo apt-get install git tig vim ruby wget curl
 ## INSTALL VIM AND BASH CONFIG
 # link configs
 #ln -s vimrc ~/.vimrc 
-#ln -s bashrc ~/.bashrc
+ln -s bashrc ~/.bashrc
 #ln -s logout ~/.logout
 
 # Add pathogen
