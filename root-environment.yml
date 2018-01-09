@@ -1,0 +1,28 @@
+name: root
+channels:
+    - conda-forge
+dependencies:
+    - numpy 
+    - scipy
+    - bokeh
+    - matplotlib
+    - click
+    - ipython
+    - jupyter
+    - ipykernel
+    - ipywidgets
+    - nb_conda
+    - nb_conda_kernels
+    - pandas
+    - statsmodels
+    - patsy
+    - pip
+    - pytest
+    - pytest-runner
+    - coverage
+    - pip:
+        - jsonschema
+        - click
+        - click-log
+        - versioneer
+        - pytest-coverage
