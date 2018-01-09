@@ -1,6 +1,8 @@
 ## SET UP PATH
 
 export LOCAL=${HOME}/.local
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 AddPath ()
 # Add argument to $PATH if:
